@@ -2,6 +2,8 @@ module github.com/kluctl/kluctl/v2
 
 go 1.21
 
+replace github.com/kluctl/go-embed-python v0.0.0-3.11.6-20231002-1 => github.com/netthier/go-embed-python v0.0.0-20240204171709-285fc79a4e0e
+
 require (
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358
 	github.com/Masterminds/semver/v3 v3.2.1
